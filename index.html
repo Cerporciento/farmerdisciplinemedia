@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Farmer Discipline Media LLC | Education & Digital Learning</title>
+  <meta
+    name="description"
+    content="Farmer Discipline Media LLC provides educational services, digital learning materials, and structured training programs focused on blockchain-related technology and online education."
+  />
+  <meta name="author" content="Farmer Discipline Media LLC" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Farmer Discipline Media LLC | Education & Digital Learning" />
+  <meta
+    property="og:description"
+    content="Educational services, structured learning programs, and digital training materials for blockchain-related topics."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Farmer Discipline Media LLC | Education & Digital Learning" />
+  <meta
+    name="twitter:description"
+    content="Educational services, structured learning programs, and digital training materials for blockchain-related topics."
+  />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: { dark: { 950: '#020617' } }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .gradient-text {
+      background: linear-gradient(135deg, #22d3ee, #6366f1, #a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card {
+      background: rgba(30, 41, 59, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(12px);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body class="bg-dark-950 text-gray-100 font-sans antialiased">
+
+  <!-- NAV -->
+  <nav class="fixed top-0 w-full z-50 bg-dark-950/80 backdrop-blur-xl border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="text-lg font-bold text-white">
+          <span class="text-cyan-400">Farmer</span> Discipline Media LLC
+        </a>
+
+        <div class="hidden sm:flex space-x-6 text-sm text-gray-400">
+          <a href="#about" class="hover:text-white transition">About</a>
+          <a href="#education" class="hover:text-white transition">Education</a>
+          <a href="#programs" class="hover:text-white transition">Programs</a>
+          <a href="#services" class="hover:text-white transition">Services</a>
+          <a href="#contact" class="hover:text-white transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <div class="absolute inset-0">
+      <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="relative max-w-5xl mx-auto px-4 text-center">
+      <p class="text-sm font-medium text-cyan-400 tracking-widest uppercase mb-6">
+        Education & Digital Learning
+      </p>
+
+      <h1 class="text-5xl sm:text-7xl lg:text-8xl font-black leading-tight mb-8">
+        Structured Education for
+        <span class="gradient-text">Digital Skills</span>
+      </h1>
+
+      <p class="text-xl sm:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
+        Farmer Discipline Media LLC develops educational programs, digital learning materials,
+        and structured online training focused on blockchain-related topics, practical understanding,
+        and long-term skill development.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+        <div class="card rounded-2xl p-6">
+          <p class="text-3xl sm:text-4xl font-black text-cyan-400">Education</p>
+          <p class="text-xs text-gray-400 mt-2">Structured Learning</p>
+          <p class="text-[10px] text-gray-600 mt-1">Guides • lessons • learning paths</p>
+        </div>
+
+        <div class="card rounded-2xl p-6">
+          <p class="text-3xl sm:text-4xl font-black text-indigo-400">Training</p>
+          <p class="text-xs text-gray-400 mt-2">Online Programs</p>
+          <p class="text-[10px] text-gray-600 mt-1">Classes • student support • digital materials</p>
+        </div>
+
+        <div class="card rounded-2xl p-6">
+          <p class="text-3xl sm:text-4xl font-black text-purple-400">Content</p>
+          <p class="text-xs text-gray-400 mt-2">Educational Media</p>
+          <p class="text-[10px] text-gray-600 mt-1">Written content • video lessons • resources</p>
+        </div>
+      </div>
+
+      <a href="#about" class="inline-block mt-12 text-gray-500 hover:text-white transition animate-bounce" aria-label="Scroll to About">
+        <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- ABOUT -->
+    <section id="about" class="py-24 fade-in">
+      <div class="mb-10">
+        <p class="text-sm font-medium text-cyan-400 tracking-widest uppercase mb-3">01 / About</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Education-first. Clear and practical.</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          Farmer Discipline Media LLC is an education-focused company dedicated to creating
+          structured learning experiences, online classes, and digital training materials.
+          The company helps students understand complex topics through organized explanations,
+          guided lessons, and consistent educational support.
+        </p>
+
+        <p class="text-gray-400 max-w-3xl text-lg mt-6">
+          Our work is centered on education, content development, and digital learning systems.
+          We provide informational and educational services only and do not operate as a financial institution,
+          brokerage, exchange, or asset manager.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">What we teach</h3>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li>• Foundational blockchain concepts</li>
+            <li>• Digital tools and online platforms</li>
+            <li>• Research habits and structured learning</li>
+            <li>• Responsible educational guidance</li>
+          </ul>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">How we work</h3>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li>• Clear lesson-based teaching methods</li>
+            <li>• Digital materials for self-paced learning</li>
+            <li>• Organized curriculum and training paths</li>
+            <li>• Ongoing updates and student support</li>
+          </ul>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">What students receive</h3>
+          <ul class="text-gray-400 text-sm space-y-2">
+            <li>• Educational modules and lessons</li>
+            <li>• Learning resources and summaries</li>
+            <li>• Access to digital training materials</li>
+            <li>• Structured online guidance</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="py-24 fade-in">
+      <div class="mb-12">
+        <p class="text-sm font-medium text-indigo-400 tracking-widest uppercase mb-3">02 / Education</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Digital education with structured teaching</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          Our educational model is designed to make technical topics easier to understand through
+          step-by-step explanations, organized resources, and practical learning formats adapted to online students.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-4">Core education areas</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Foundational Learning</p>
+              <p class="text-sm text-gray-400 mt-1">Beginner-friendly explanations and structured introductions.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Digital Literacy</p>
+              <p class="text-sm text-gray-400 mt-1">Understanding online tools, platforms, and terminology.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Learning Systems</p>
+              <p class="text-sm text-gray-400 mt-1">Organized modules, summaries, and repeatable study paths.</p>
+            </div>
+            <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="font-semibold">Practical Context</p>
+              <p class="text-sm text-gray-400 mt-1">Real-world examples used for educational understanding.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-4">Teaching methodology</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Farmer Discipline Media LLC creates structured educational content designed for clarity,
+            consistency, and progressive learning. Lessons are delivered through digital resources,
+            guided sessions, and practical materials that support independent understanding.
+          </p>
+
+          <div class="mt-6 space-y-3 text-sm text-gray-400">
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Step-by-step learning structure</span>
+            </div>
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Clear educational language and organized lessons</span>
+            </div>
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Digital materials for review and repetition</span>
+            </div>
+            <div class="flex gap-3">
+              <span class="text-cyan-400 font-semibold">•</span>
+              <span>Supportive learning environment for students</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section id="programs" class="py-24 fade-in">
+      <div class="mb-12">
+        <p class="text-sm font-medium text-purple-400 tracking-widest uppercase mb-3">03 / Programs</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Online academy and digital training programs</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          The academy provides structured educational programs through digital platforms,
+          combining lessons, learning materials, and ongoing guidance to help students build understanding over time.
+        </p>
+        <p class="text-gray-400 max-w-3xl text-sm mt-3">
+          All programs are educational in nature and are intended for training, learning, and informational purposes.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Digital lessons</h3>
+          <p class="text-gray-400 text-sm">
+            Recorded and live educational sessions designed to explain concepts in a clear and practical way.
+          </p>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Student academy</h3>
+          <p class="text-gray-400 text-sm">
+            A structured learning environment where students access materials, lessons, and guided educational content.
+          </p>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Support resources</h3>
+          <p class="text-gray-400 text-sm">
+            Supplementary guides, summaries, and learning resources created to reinforce student progress.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-6 card rounded-2xl p-6 sm:p-8">
+        <h3 class="text-lg font-semibold text-white mb-3">Program outputs</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Lesson modules</p>
+            <p class="text-xs text-gray-400 mt-1">Organized sections for progressive learning.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Study materials</p>
+            <p class="text-xs text-gray-400 mt-1">Notes, guides, and educational references.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Student access</p>
+            <p class="text-xs text-gray-400 mt-1">Digital platform access to academy resources.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Learning updates</p>
+            <p class="text-xs text-gray-400 mt-1">New materials and periodic educational improvements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-24 fade-in">
+      <div class="mb-10">
+        <p class="text-sm font-medium text-cyan-400 tracking-widest uppercase mb-3">04 / Services</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Professional Services</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          Farmer Discipline Media LLC provides education-focused digital services through online training,
+          educational media production, and structured learning support.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Online Education</h3>
+          <p class="text-gray-400 text-sm">
+            Structured digital teaching programs, lessons, and guided educational sessions.
+          </p>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Educational Content</h3>
+          <p class="text-gray-400 text-sm">
+            Creation of digital materials, lesson notes, guides, and long-form educational resources.
+          </p>
+        </div>
+
+        <div class="card rounded-2xl p-6 sm:p-8">
+          <h3 class="text-lg font-semibold text-white mb-3">Training Support</h3>
+          <p class="text-gray-400 text-sm">
+            Ongoing support for students through organized resources, updates, and digital learning systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-6 card rounded-2xl p-6 sm:p-8">
+        <h3 class="text-lg font-semibold text-white mb-3">Typical engagement</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Academy access</p>
+            <p class="text-xs text-gray-400 mt-1">Student enrollment with access to digital materials.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Program-based learning</p>
+            <p class="text-xs text-gray-400 mt-1">Structured curriculum delivered in modules.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/5">
+            <p class="font-semibold">Educational guidance</p>
+            <p class="text-xs text-gray-400 mt-1">Support and clarifications related to course content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 fade-in">
+      <div class="mb-10">
+        <p class="text-sm font-medium text-gray-500 tracking-widest uppercase mb-3">05 / Contact</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Company information</h2>
+        <p class="text-gray-400 max-w-3xl text-lg">
+          For academy inquiries, educational collaborations, or digital learning programs, contact us by email.
+        </p>
+      </div>
+
+      <div class="card rounded-2xl p-6 sm:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div>
+            <p class="text-sm text-gray-500 mb-2">Entity</p>
+            <p class="text-lg font-semibold text-white">Farmer Discipline Media LLC</p>
+
+            <p class="text-sm text-gray-500 mt-6 mb-2">Business focus</p>
+            <p class="text-gray-300">
+              Online education<br />
+              Digital learning materials<br />
+              Structured educational programs
+            </p>
+          </div>
+
+          <div>
+            <p class="text-sm text-gray-500 mb-2">Contact email</p>
+            <a href="mailto:info@farmerdisciplinemedia.com" class="inline-block text-cyan-400 hover:text-cyan-300 font-medium text-lg">
+              info@farmerdisciplinemedia.com
+            </a>
+
+            <p class="text-xs text-gray-500 mt-4">
+              We respond within 1–2 business days.
+            </p>
+
+            <div class="mt-6 p-4 rounded-xl bg-white/5 border border-white/5">
+              <p class="text-sm text-gray-300">
+                Farmer Discipline Media LLC provides educational services and digital learning materials.
+                The company does not provide financial advice, investment management, custody services,
+                brokerage services, or regulated financial services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/5 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-500 text-sm">
+        © 2026 <span class="text-cyan-400 font-bold">Farmer Discipline Media LLC</span> — Education & Digital Learning
+      </p>
+      <p class="text-gray-600 text-xs mt-2">
+        Online education, digital learning materials, and structured training programs
+      </p>
+      <p class="mt-3">
+        <a href="mailto:info@farmerdisciplinemedia.com" class="text-cyan-400 hover:text-cyan-300 text-sm font-medium">
+          info@farmerdisciplinemedia.com
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
